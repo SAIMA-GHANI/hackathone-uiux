@@ -88,33 +88,48 @@ foody product
   </div>
   <div className="fourth">
     <div className="main4">
-      <div className="imeges3"></div>
+      <div className="imeges3">
+        <div className="i31"><Image className="m-border" src={'/unsplash01.png'} height={356} width={362} alt="check"/>
+        
+      <Image id="i30" className="m-border" src={'/unsplash02.png'} height={231} width={281} alt="check"/></div>
+      <div className="i32">
+      <Image className="m-border"  src={'/unsplash03.png'} height={306} width={244} alt="check" /> 
+      <Image className="m-border" src={'/unsplash04.png'} height={226} width={221} alt="check"/> 
+      <div className="i33"> <Image className="m-border" src={'/unsplash05.png'} height={168} width={161} alt="check"/>  
+       
+          <div className="i34"> 
+         <Image className="m-border" src={'/unsplash06.png'} height={168} width={161} alt="check"/> 
+          </div> 
+      </div>
+      </div>
+      </div>
      <div className="heading3">
-      <p id="m41">Why Choose us</p>
+      <p id="m41" className="p-color">Why Choose us</p>
       <p id="m42"> Exta ordinary taste
-      And Experienced </p>
-      <p id="m43"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+     <br/>  And Experienced </p>
+    
+      <p className='p-color'  id="m43"  > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
       <div className="s-imeges"> 
       <div className="s-i">
-      <Image className="m-border" src={'/Hamburger.png'} height={56} width={56} alt="check"/>
+      <Image id="si1" src={'/Hamburger.png'} height={56} width={56} alt="check"/>
       </div>
       <div className="s-i">
-      <Image className="m-border" src={'/Cookie.png'} height={56} width={56} alt="check"/>
+      <Image id="si1" src={'/Cookie.png'} height={56} width={56} alt="check"/>
       </div>
       <div className="s-i">
-      <Image className="m-border" src={'/Wine.png'} height={56} width={56} alt="check"/>
+      <Image id="si1" src={'/Wine.png'} height={56} width={56} alt="check"/>
       </div>
  </div>
- <div className="s-i4"></div>
+ <div  className="s-i4  m-border"></div>
 
 
 
 
-     </div>
+     
     </div>
   </div>
 
-    
+    </div>
 
 </div>
   );

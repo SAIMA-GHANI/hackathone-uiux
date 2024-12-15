@@ -1,14 +1,19 @@
+
 *{
   padding: 0;
   margin: 0;
-  border: 2px solid green; 
+  /* border: 2px solid green;  */
 }
 .m-border:hover{
   border: 2px solid #FF9F0D;
 }
+image{
+  border-radius: 8px;
+}
 .p-color:hover{
   color: #FF9F0D;
 }
+
 .full-page
 {
  background-image:url(../../../../Downloads/unsplash_qom5MPOER-I.png); 
@@ -258,12 +263,22 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
 }
-       /* *************main4************* */
-  .imeges3{
+    
+/* *************main4************* */
+/* .fourth{
+  display: flex;
+} */
+
+
+.imeges3{
+    
     width: 50%;
+  
   }
   .heading3{
-    width: 35%;
+    
+    margin-top: 30px;
+    width:40%;
   }
   #m41{color: #FF9F0D;
     font-style: italic;
@@ -292,13 +307,18 @@ text-decoration-skip-ink: none;
    .fourth{
     width: 100%;
     background-color: black;
+    
    }
    .main4{
-    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
   background-color: black;
   width: 80%;
   height: 716px;
   margin-left: 180px;
+   }
+   #m43{
+    line-height: 35px;
    }
    .s-i{ height: 100px;
     width: 102px;
@@ -307,6 +327,13 @@ text-decoration-skip-ink: none;
     align-items: center;
     justify-content: center;
 
+   }
+   .s-i:hover{
+    border: 2px solid white;
+    #si1:hover{
+      border: 2px solid black;
+
+    }
    }
  .s-imeges{
   margin-top: 50px;
@@ -319,4 +346,14 @@ text-decoration-skip-ink: none;
   background-size: cover;
   height: 93px;
   width: 374px;
+ }
+  #i30{
+    margin-left: 10px;
+  }
+  .i31{
+    margin-left: 15px;
+  }
+ .i32{
+  display: flex;
+  justify-content:space-evenly;
  }
