@@ -121,15 +121,34 @@ foody product
       </div>
  </div>
  <div  className="s-i4  m-border"></div>
-
-
-
-
-     
-    </div>
   </div>
+  </div>
+ </div>
+   <footer>
 
-    </div>
+<div className="foot-div">
+  <div className="foot-1">
+  <div>
+    <p className="f1">
+       Still You Need Our  Support?
+  </p>
+  <p className="f2">
+  Don’t wait make a smart & logical quote here. Its pretty easy.
+  </p></div>
+  <input className='email-input' placeholder='Enter your Email'></input>
+  <button className="F-b"> Subscribe Now</button>
+
+  </div>
+  
+  <div className="foot-2"></div>
+</div>
+
+
+
+
+   </footer>
+
+
 
 </div>
   );

@@ -2,10 +2,10 @@
 *{
   padding: 0;
   margin: 0;
-  /* border: 2px solid green;  */
+  border: 2px solid green; 
 }
 .m-border:hover{
-  border: 2px solid #FF9F0D;
+  border: 3px solid #FF9F0D;
 }
 image{
   border-radius: 8px;
@@ -356,4 +356,58 @@ text-decoration-skip-ink: none;
  .i32{
   display: flex;
   justify-content:space-evenly;
+ }
+ /* *******************footer************** */
+ 
+ .foot-div{
+  background-color: black;
+  padding-top: 100px;
+  width: 100%;
+  height: 741px;
+ }
+ 
+ 
+ .foot-1{
+background-color: black;
+  width: 1170px;
+height: 142.62px;
+margin-left: 280px;
+display: flex;
+border-bottom: 3px solid #FF9F0D;
+
+
+ }
+ .f2{
+  color: white;
+  font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 50px;
+text-align: left;
+ } 
+ .f1{
+  color: white;
+  font-family: Helvetica;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+ }
+ .email-input{
+  background-color: #FF9F0D;
+  text-align: center;
+  margin-top: 20px;
+  margin-left:250px;
+  height: 56px;
+  width: 330px;
+
+ }
+ .F-b{
+  
+  text-align: center;
+  margin-top: 20px;
+  height: 59px;
+  width: 163px;
+
  }
